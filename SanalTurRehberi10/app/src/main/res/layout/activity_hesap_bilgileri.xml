@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HesapBilgileri">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="149dp"
+        android:layout_height="450dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout9"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249">
+
+
+        <EditText
+            android:id="@+id/HesapİsimText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="İsim"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/HesapSoyisimText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Soyisim"
+            android:textColor="#000"
+            android:textSize="20sp"></EditText>
+
+        <EditText
+            android:id="@+id/HesapMailAdresiText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Mail Adresi"
+            android:textColor="#000"
+            android:textSize="20sp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/HesapKullanıcıAdıText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Kullanıcı Adı"
+            android:textColor="#000"
+            android:textSize="20sp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/HesapSifreText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Şifre"
+            android:textColor="#000"
+            android:textSize="20sp">
+
+        </EditText>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:text="Hesap Bilgileri"
+        android:textColor="#000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="206dp"
+        android:layout_height="450dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249">
+
+
+        <TextView
+            android:id="@+id/Hesapİsim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="İsim"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/HesapSoyisim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="56dp"
+            android:text="Soyisim"
+            android:textColor="#000"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/HesapMailAdresi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="56dp"
+            android:text="Mail Adresi"
+            android:textColor="#000"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/HesapKullanıcıAdı"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="56dp"
+            android:text="Kullanıcı Adı"
+            android:textColor="#000"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/HesapSifre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:text="Şifre"
+            android:textColor="#000"
+            android:textSize="20sp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="57dp"
+        android:layout_height="646dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout9"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <ImageButton
+            android:id="@+id/IsimGuncelleImage"
+            android:onClick="IsimGuncelleDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/ic_baseline_edit_24"
+            />
+
+        <ImageView
+            android:id="@+id/SoyisimGuncelleImage"
+            android:onClick="SoyisimGuncelle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="57dp"
+            app:srcCompat="@drawable/ic_baseline_edit_24" />
+
+        <ImageView
+            android:id="@+id/MailAdresiGuncelleImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            app:srcCompat="@drawable/ic_baseline_edit_24" />
+
+
+        <ImageView
+            android:id="@+id/KullaniciAdiGuncelleImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            app:srcCompat="@drawable/ic_baseline_edit_24" />
+
+        <ImageView
+            android:id="@+id/SifreGuncelleImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            app:srcCompat="@drawable/ic_baseline_edit_24" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="352dp"
+        android:layout_height="209dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout10">
+
+        <RelativeLayout
+            android:id="@+id/KayitOlLoginPage"
+            android:layout_width="194dp"
+            android:layout_height="76dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="95dp"
+            android:background="@drawable/button_back">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="Kaydet"
+
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"></TextView>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

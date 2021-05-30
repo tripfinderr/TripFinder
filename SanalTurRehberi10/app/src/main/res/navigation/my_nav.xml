@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeTab">
+
+    <fragment
+        android:id="@+id/homeTab"
+        android:name="com.crinsoft.sanalturrehberi.HomeTab"
+        android:label="fragment_home_tab"
+        tools:layout="@layout/fragment_home_tab" />
+    <fragment
+        android:id="@+id/sehirAramaTab"
+        android:name="com.crinsoft.sanalturrehberi.SehirAramaTab"
+        android:label="fragment_sehir_arama_tab"
+        tools:layout="@layout/fragment_sehir_arama_tab" />
+    <fragment
+        android:id="@+id/favorilerTab"
+        android:name="com.crinsoft.sanalturrehberi.FavorilerTab"
+        android:label="fragment_favoriler_tab"
+        tools:layout="@layout/fragment_favoriler_tab" />
+    <fragment
+        android:id="@+id/hesabimTab"
+        android:name="com.crinsoft.sanalturrehberi.HesabimTab"
+        android:label="fragment_hesabim_tab"
+        tools:layout="@layout/fragment_hesabim_tab" />
+</navigation>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MekanDetaylariActivity">
+
+    <ImageView
+        android:id="@+id/MekanImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/mekanDetayIsmi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kule6shutter_16_9_1583756372" />
+
+    <TextView
+        android:id="@+id/mekanDetayIsmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="TextView"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/mekanDetayAciklamasi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MekanImage" />
+
+    <TextView
+        android:id="@+id/mekanDetayAciklamasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="68dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mekanDetayIsmi" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="411dp"
+        android:layout_height="306dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mekanDetayAciklamasi">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:onClick="showMarker"
+            android:layout_height="75dp"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/maskkkk"
+                android:drawableLeft="@drawable/googlemaps"
+                android:fontFamily="@font/poppinsbold"
+                android:gravity="center"
+                android:text="Haritada Göster"
+                android:textColor="#FFFF"
+                android:textSize="25dp">
+
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="0dp"
+            app:cardCornerRadius="10dp"
+            android:onClick="favEkle"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/maskkkk"
+                android:drawableLeft="@drawable/favorite"
+                android:fontFamily="@font/poppinsbold"
+                android:gravity="center"
+                android:text="Favorilere Ekle"
+                android:textColor="#FFFF"
+                android:textSize="25dp">
+
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="0dp"
+            android:onClick="YorumYap"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/maskkkk"
+                android:drawableLeft="@drawable/ic_baseline_edit_24"
+                android:fontFamily="@font/poppinsbold"
+                android:gravity="center"
+                android:text="Yorum Yap"
+                android:textColor="#FFFF"
+                android:textSize="25dp">
+
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

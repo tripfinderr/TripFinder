@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+    <item android:title="Gittiklerim" android:icon="@drawable/ic_home" android:id="@+id/HomeTab"/>
+    <item android:title="Ayarlar" android:icon="@drawable/ic_baseline_search_24" android:id="@+id/sehirAramaTab"/>
+    <item android:title="Destek" android:icon="@drawable/ic_baseline_favorite_border_24" android:id="@+id/favorilerTab"/>
+    <item android:title="Hakkımızda" android:icon="@drawable/ic_baseline_person_24" android:id="@+id/hesabimTab" />
+    <item android:title="Sıkça Sorulan Sorular" android:icon="@drawable/ic_baseline_info_24" android:id="@+id/SssTab" />
+        <item android:title="Çıkış Yap" android:icon="@drawable/logoutblue" android:id="@+id/ÇıkışYap" />
+    </group>
+<group>
+
+
+
+
+</group>
+
+</menu>
